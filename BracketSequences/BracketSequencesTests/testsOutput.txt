@@ -1,0 +1,14 @@
+GetBracketSequences 1: 2,2528
+GetBracketSequences 3: 1,7327
+GetBracketSequences -1: 0,9559
+GetBracketSequences -100: 0,0615
+GetBracketSequences 0: 0,0461
+IntParse 0 0: 0,5348
+IntParse 1 1: 0,0084
+IntParse 1236173 1236173: 0,001
+IntParse 2147483647 2147483647: 0,0014
+IntParse -2147483648 -2147483648: 0,001
+IntParse : 0,5373
+IntParse 123w213: 0,0762
+IntParse : 0,0582
+IntParse !@ML:!L$M!: 0,0846
