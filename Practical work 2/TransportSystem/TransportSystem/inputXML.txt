@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ArrayOfTransport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Transport xsi:type="PassengerCar">
+    <Make>Honda civic</Make>
+    <RegistrationPlate>A123BC</RegistrationPlate>
+    <MaxSpeed>120</MaxSpeed>
+    <CarryingCapacity>400</CarryingCapacity>
+  </Transport>
+  <Transport xsi:type="PassengerCar">
+    <Make>Toyota</Make>
+    <RegistrationPlate>X242XX</RegistrationPlate>
+    <MaxSpeed>180</MaxSpeed>
+    <CarryingCapacity>800</CarryingCapacity>
+  </Transport>
+  <Transport xsi:type="Motorcycle">
+    <Make>Yamaha</Make>
+    <RegistrationPlate>1123AB</RegistrationPlate>
+    <MaxSpeed>200</MaxSpeed>
+    <CarryingCapacity>500</CarryingCapacity>
+    <Sidecar>false</Sidecar>
+  </Transport>
+  <Transport xsi:type="Motorcycle">
+    <Make>Kawasaki ninja</Make>
+    <RegistrationPlate>1111MK</RegistrationPlate>
+    <MaxSpeed>240</MaxSpeed>
+    <CarryingCapacity>500</CarryingCapacity>
+    <Sidecar>true</Sidecar>
+  </Transport>
+  <Transport xsi:type="Truck">
+    <Make>Volvo FMX</Make>
+    <RegistrationPlate>M534KP</RegistrationPlate>
+    <MaxSpeed>120</MaxSpeed>
+    <CarryingCapacity>10000</CarryingCapacity>
+    <Trailer>true</Trailer>
+  </Transport>
+  <Transport xsi:type="Truck">
+    <Make>Kamaz</Make>
+    <RegistrationPlate>C624OE</RegistrationPlate>
+    <MaxSpeed>100</MaxSpeed>
+    <CarryingCapacity>20000</CarryingCapacity>
+    <Trailer>false</Trailer>
+  </Transport>
+</ArrayOfTransport>

@@ -1,0 +1,7 @@
+﻿6
+PassengerCar Honda A123BC 120 400
+PassengerCar Toyota X242XX 180 800
+Motorcycle Yamaha 1123AB 200 500 true
+Motorcycle Kawasaki 1123AB 200 500 false
+Truck Volvo M534KP 120 10000 true
+Truck Kamaz C624OE 100 20000 false

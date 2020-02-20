@@ -1,0 +1,4 @@
+Passenger Car Toyota X242XX 180km/h 800kg
+Motorcycle Kawasaki ninja 1111MK 240km/h 500kg with sidecar
+Truck Volvo FMX M534KP 120km/h 20000kg with trailer
+Truck Kamaz C624OE 100km/h 20000kg without trailer
