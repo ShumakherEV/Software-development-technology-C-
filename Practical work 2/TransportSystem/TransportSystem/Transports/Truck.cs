@@ -1,4 +1,6 @@
-﻿namespace TransportSystem.Transports
+﻿using System.Diagnostics;
+
+namespace TransportSystem.Transports
 {
     public class Truck : Transport
     {
@@ -18,6 +20,10 @@
         /// </summary>
         public override int GetCarryingCapacity()
         {
+            Trace.WriteLine("Trace Information-Truck.GetCarryingCapacity Starting");
+            Trace.Indent();
+            Debug.WriteLineIf(Trailer, "Truck with trailer, carrying capacity doubled");
+            Trace.Unindent();
             return Trailer? CarryingCapacity*2 : CarryingCapacity;
         }
 
@@ -26,6 +32,7 @@
         /// </summary>
         public override void PrintInfo()
         {
+            Trace.WriteLine("Trace Information-Truck.PrintInfo Starting");
             var trailer = Trailer ? "with trailer" : "without trailer";
             Reporter.Write($"Truck {Make} {RegistrationPlate} {MaxSpeed}km/h {GetCarryingCapacity()}kg {trailer}");
         }

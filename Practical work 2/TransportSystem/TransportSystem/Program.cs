@@ -62,6 +62,13 @@ namespace TransportSystem
                     }
                 }
             }
+
+            XmlSerializer formatter = new XmlSerializer(typeof(Transport[]));
+
+            using (FileStream fs = new FileStream(Path.Combine(FilePath, "transports.xml"), FileMode.OpenOrCreate))
+            {
+                formatter.Serialize(fs, transports);
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Diagnostics;
+using System.IO;
 
 namespace TransportSystem.Reporters
 {
@@ -14,6 +15,7 @@ namespace TransportSystem.Reporters
         /// </summary>
         public void Write(string s)
         {
+            Trace.WriteLine("Trace Information-TxtReporter.Write Starting");
             SW.WriteLine(s);
         }
     }
