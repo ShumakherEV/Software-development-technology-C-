@@ -23,3 +23,15 @@ namespace WindowsInstaller
 
     }
 }
+
++WindowsHello: bool
++DeviceEncryption: bool
++InternetProtection: bool
++WindowsDefenderAntivirus: bool
++ParentalControlsAndProtection: bool
++FirewallAndNetworkProtection: bool
++BitLockerDeviceEncryption: bool
++WindowsInformationProtection: bool
++AssignedAccess: bool
++WindowsDefenderApplicationGuard: bool
++MicrosoftDefenderAdvancedThreatProtection: bool
