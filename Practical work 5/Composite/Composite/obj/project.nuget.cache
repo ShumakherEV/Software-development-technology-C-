@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kOgGrGazsw76vYL6cUgdF5jrAe8/3LcXvlBlHZyCYCJTG85xmyPGM6MRTqUFch39SpMOEDpwOiBXKUejQnoomQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Мила\\Desktop\\ТРПО(C#)\\PW5\\Composite\\Composite\\Composite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Мила\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
