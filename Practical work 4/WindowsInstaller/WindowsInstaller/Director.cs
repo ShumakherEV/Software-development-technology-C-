@@ -6,6 +6,9 @@ namespace WindowsInstaller
 {
     class Director
     {
+        /// <summary>
+        /// Build Windows Home
+        /// </summary>
         public void ConstructWindowsHome(Builder builder)
         {
             builder.Reset();
@@ -16,6 +19,10 @@ namespace WindowsInstaller
             builder.SetParentalControlsAndProtection(true);
             builder.SetFirewallAndNetworkProtection(true);
         }
+
+        /// <summary>
+        /// Build Windows Pro
+        /// </summary>
         public void ConstructWindowsPro(Builder builder)
         {
             builder.Reset();
@@ -29,6 +36,10 @@ namespace WindowsInstaller
             builder.SetWindowsInformationProtection(true);
             builder.SetAssignedAccess(true);
         }
+
+        /// <summary>
+        /// Build Windows Enterprise
+        /// </summary>
         public void ConstructWindowsEnterprise(Builder builder)
         {
             builder.Reset();

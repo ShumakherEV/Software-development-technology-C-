@@ -4,9 +4,16 @@ using System.Text;
 
 namespace WindowsInstaller
 {
-    class WindowsBuilder: Builder
+    /// <summary>
+    /// Class building Windows
+    /// </summary>
+    class WindowsBuilder : Builder
     {
         private Windows windows;
+
+        /// <summary>
+        /// Create new Windows
+        /// </summary>
         public void Reset()
         {
             windows = new Windows();

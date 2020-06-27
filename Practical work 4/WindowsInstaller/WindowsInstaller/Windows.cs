@@ -4,6 +4,9 @@ using System.Text;
 
 namespace WindowsInstaller
 {
+    /// <summary>
+    /// Class describing Windows
+    /// </summary>
     class Windows
     {
         public bool WindowsHello { get; set; }

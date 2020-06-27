@@ -2,6 +2,10 @@
 
 namespace WindowsInstaller
 {
+    /// <summary>
+    /// The entry point for the application
+    /// </summary>
+    /// <param name="args"> Command line argument list </param>
     class Program
     {
         static void Main(string[] args)
@@ -24,6 +28,8 @@ namespace WindowsInstaller
                 case "enterprise":
                     director.ConstructWindowsEnterprise(builder);
                     break;
+                default:
+                    throw new ArgumentException(String.Format("{0} is not a Windows version", version));
             }
 
             Windows windows = builder.GetResult();

@@ -4,6 +4,9 @@ using System.Text;
 
 namespace WindowsInstaller
 {
+    /// <summary>
+    /// Builder interface
+    /// </summary>
     public interface Builder
     {
         public void Reset();
