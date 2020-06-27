@@ -1,9 +1,0 @@
-C:\Users\Мила\Desktop\ТРПО(C#)\PW5\Composite\Composite\bin\Debug\netcoreapp3.1\Composite.deps.json
-C:\Users\Мила\Desktop\ТРПО(C#)\PW5\Composite\Composite\bin\Debug\netcoreapp3.1\Composite.dll
-C:\Users\Мила\Desktop\ТРПО(C#)\PW5\Composite\Composite\bin\Debug\netcoreapp3.1\Composite.pdb
-C:\Users\Мила\Desktop\ТРПО(C#)\PW5\Composite\Composite\obj\Debug\netcoreapp3.1\Composite.csprojAssemblyReference.cache
-C:\Users\Мила\Desktop\ТРПО(C#)\PW5\Composite\Composite\obj\Debug\netcoreapp3.1\Composite.AssemblyInfoInputs.cache
-C:\Users\Мила\Desktop\ТРПО(C#)\PW5\Composite\Composite\obj\Debug\netcoreapp3.1\Composite.AssemblyInfo.cs
-C:\Users\Мила\Desktop\ТРПО(C#)\PW5\Composite\Composite\obj\Debug\netcoreapp3.1\Composite.csproj.CoreCompileInputs.cache
-C:\Users\Мила\Desktop\ТРПО(C#)\PW5\Composite\Composite\obj\Debug\netcoreapp3.1\Composite.dll
-C:\Users\Мила\Desktop\ТРПО(C#)\PW5\Composite\Composite\obj\Debug\netcoreapp3.1\Composite.pdb
